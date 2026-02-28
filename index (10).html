@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta & Title -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NaturGuard – Natural Mosquito Repellent</title>
+  <meta name="description" content="NaturGuard – 100% natural, chemical-free mosquito repellent made from neem, coconut oil, and menthol crystals." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================
+       NAVIGATION
+  ============================= -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-leaf">🌿</span>
+        <span>NaturGuard</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#ingredients" class="nav-link">Ingredients</a></li>
+        <li><a href="#procedure" class="nav-link">Procedure</a></li>
+        <li><a href="#process-flow" class="nav-link">Process Flow</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#applications" class="nav-link">Applications</a></li>
+        <li><a href="#how-to-use" class="nav-link">How to Use</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO SECTION
+  ============================= -->
+  <section class="hero" id="home">
+    <!-- Decorative background leaves -->
+    <div class="hero-bg-decor" aria-hidden="true">
+      <div class="decor-circle c1"></div>
+      <div class="decor-circle c2"></div>
+      <div class="decor-circle c3"></div>
+    </div>
+
+    <div class="hero-content fade-in">
+      <p class="hero-eyebrow">100% Natural · Chemical-Free · Eco-Friendly</p>
+      <h1 class="hero-title">
+        Protect Your Home<br />
+        <em>Naturally</em>
+      </h1>
+      <p class="hero-sub">
+        Harnessing the ancient power of neem, coconut oil, and menthol crystals,
+        NaturGuard delivers long-lasting mosquito protection — without a single
+        drop of synthetic chemical.
+      </p>
+      <div class="hero-cta-row">
+        <a href="#ingredients" class="btn btn-primary">Learn More</a>
+        <a href="#how-to-use" class="btn btn-outline">How to Use</a>
+      </div>
+    </div>
+
+    <!-- Team / product photo placeholder -->
+    <div class="hero-image-wrap fade-in delay-2">
+      <div class="hero-img-frame">
+        <img
+          src="team-photo.jpg"
+          alt="NaturGuard team"
+          class="hero-img"
+          onerror="this.src='https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=700&q=80'; this.onerror=null;"
+        />
+        <div class="hero-img-badge">Est. 2026</div>
+      </div>
+    </div>
+
+    <!-- Stats row -->
+    <div class="hero-stats fade-in delay-3">
+      <div class="stat-card">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Natural Ingredients</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">0</span>
+        <span class="stat-label">Chemicals Used</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">8h+</span>
+        <span class="stat-label">Long-Lasting Protection</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       INGREDIENTS SECTION
+  ============================= -->
+  <section class="section ingredients-section" id="ingredients">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What's Inside</p>
+        <h2 class="section-title">Pure & Powerful Ingredients</h2>
+        <p class="section-desc">Every component is carefully sourced from nature to ensure maximum efficacy and safety for your family.</p>
+      </div>
+
+      <div class="ingredients-grid">
+
+        <!-- Neem Leaves -->
+        <article class="ingredient-card reveal delay-1">
+          <div class="ingredient-icon">🌿</div>
+          <h3 class="ingredient-name">Neem Leaves</h3>
+          <p class="ingredient-desc">
+            A cornerstone of Ayurvedic tradition, neem contains azadirachtin — a
+            powerful bioactive compound that disrupts the life cycle of mosquitoes
+            and repels them effectively.
+          </p>
+          <ul class="ingredient-benefits">
+            <li>Potent natural insect repellent</li>
+            <li>Anti-bacterial &amp; anti-fungal</li>
+            <li>Sustainably harvested</li>
+          </ul>
+          <div class="card-hover-line"></div>
+        </article>
+
+        <!-- Coconut Oil -->
+        <article class="ingredient-card reveal delay-2">
+          <div class="ingredient-icon">🥥</div>
+          <h3 class="ingredient-name">Coconut Oil</h3>
+          <p class="ingredient-desc">
+            Cold-pressed virgin coconut oil acts as the perfect carrier, enhancing
+            skin absorption, adding a protective barrier, and moisturising as it repels.
+          </p>
+          <ul class="ingredient-benefits">
+            <li>Skin-nourishing base</li>
+            <li>Enhances ingredient delivery</li>
+            <li>Non-greasy, lightweight feel</li>
+          </ul>
+          <div class="card-hover-line"></div>
+        </article>
+
+        <!-- Menthol Crystals -->
+        <article class="ingredient-card reveal delay-3">
+          <div class="ingredient-icon">❄️</div>
+          <h3 class="ingredient-name">Menthol Crystals</h3>
+          <p class="ingredient-desc">
+            Derived from peppermint, menthol creates a cooling sensation that
+            mosquitoes find repulsive — while giving you a refreshing, clean feeling
+            all day long.
+          </p>
+          <ul class="ingredient-benefits">
+            <li>Instant cooling effect</li>
+            <li>Strong aromatic repellent</li>
+            <li>Soothes existing bites</li>
+          </ul>
+          <div class="card-hover-line"></div>
+        </article>
+
+        <!-- Odor Neutralizer -->
+        <article class="ingredient-card reveal delay-4">
+          <div class="ingredient-icon">✨</div>
+          <h3 class="ingredient-name">Odor Neutralizer</h3>
+          <p class="ingredient-desc">
+            A plant-derived odor neutralizer masks the human scent that attracts
+            mosquitoes, creating an invisible shield without any harsh or synthetic fragrance.
+          </p>
+          <ul class="ingredient-benefits">
+            <li>Masks attractant body odors</li>
+            <li>Plant-based, allergen-tested</li>
+            <li>Fresh, subtle scent</li>
+          </ul>
+          <div class="card-hover-line"></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       PROCEDURE SECTION
+  ============================= -->
+  <section class="section procedure-section" id="procedure">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Manufacturing Process</p>
+        <h2 class="section-title">8-Step Production Process</h2>
+        <p class="section-desc">Every batch of NaturGuard is crafted through a precise, quality-controlled process to ensure consistency and safety.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-number">01</div>
+          <div class="timeline-content">
+            <h3>Raw Material Sourcing</h3>
+            <p>Certified organic neem leaves, cold-pressed coconut oil, pharmaceutical-grade menthol crystals, and natural odor neutralizers are sourced from verified suppliers.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-number">02</div>
+          <div class="timeline-content">
+            <h3>Inspection &amp; Quality Check</h3>
+            <p>All raw materials undergo rigorous lab testing for purity, potency, and contamination before entering the production floor.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-number">03</div>
+          <div class="timeline-content">
+            <h3>Neem Extraction</h3>
+            <p>Active compounds are extracted from neem leaves using a cold-press solvent-free method to preserve azadirachtin potency and bioavailability.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-number">04</div>
+          <div class="timeline-content">
+            <h3>Coconut Oil Refinement</h3>
+            <p>Virgin coconut oil is gently filtered and deodorized at low temperatures to retain natural fatty acids and moisturising properties.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-number">05</div>
+          <div class="timeline-content">
+            <h3>Blending &amp; Emulsification</h3>
+            <p>Neem extract, coconut oil, menthol, and odor neutralizer are precisely blended in controlled ratios using cold-process emulsification for a stable, smooth formulation.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-number">06</div>
+          <div class="timeline-content">
+            <h3>Stability &amp; Efficacy Testing</h3>
+            <p>The blended formula undergoes accelerated stability testing, dermatology patch tests, and live mosquito repellency trials to validate performance claims.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-number">07</div>
+          <div class="timeline-content">
+            <h3>Filling &amp; Sealing</h3>
+            <p>Approved batches are filled into sterilised amber glass bottles using automated, air-free filling machines to prevent oxidation and contamination.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-number">08</div>
+          <div class="timeline-content">
+            <h3>Eco-Friendly Packaging</h3>
+            <p>Products are packaged in 100% recyclable, biodegradable packaging materials with tamper-evident seals, batch codes, and manufacturing dates.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       PROCESS FLOW DIAGRAM SECTION
+  ============================= -->
+  <section class="section flow-section" id="process-flow">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Visual Overview</p>
+        <h2 class="section-title">Production Flow Diagram</h2>
+        <p class="section-desc">A clear, end-to-end view of how NaturGuard goes from raw nature to your home.</p>
+      </div>
+
+      <!-- SVG Flowchart -->
+      <div class="flow-diagram-wrap reveal">
+        <svg class="flow-svg" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Production flow from Raw Materials to Final Product">
+
+          <!-- Arrow marker -->
+          <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+              <polygon points="0 0, 10 3.5, 0 7" fill="#4a7c2f" />
+            </marker>
+            <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#4a7c2f;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#2d5016;stop-opacity:1" />
+            </linearGradient>
+            <filter id="nodeShadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#1a3009" flood-opacity="0.25" />
+            </filter>
+          </defs>
+
+          <!-- Step nodes -->
+          <!-- Node 1: Raw Materials -->
+          <g class="flow-node" transform="translate(20,60)">
+            <rect width="120" height="60" rx="12" fill="url(#nodeGrad)" filter="url(#nodeShadow)" />
+            <text x="60" y="26" text-anchor="middle" fill="#a7d397" font-size="18">🌿</text>
+            <text x="60" y="43" text-anchor="middle" fill="#fff" font-size="10" font-family="Outfit,sans-serif" font-weight="600">Raw</text>
+            <text x="60" y="55" text-anchor="middle" fill="#a7d397" font-size="10" font-family="Outfit,sans-serif">Materials</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="142" y1="90" x2="166" y2="90" stroke="#4a7c2f" stroke-width="2.5" marker-end="url(#arrowhead)" />
+
+          <!-- Node 2: Extraction -->
+          <g class="flow-node" transform="translate(168,60)">
+            <rect width="120" height="60" rx="12" fill="url(#nodeGrad)" filter="url(#nodeShadow)" />
+            <text x="60" y="26" text-anchor="middle" fill="#a7d397" font-size="18">⚗️</text>
+            <text x="60" y="43" text-anchor="middle" fill="#fff" font-size="10" font-family="Outfit,sans-serif" font-weight="600">Extraction</text>
+            <text x="60" y="55" text-anchor="middle" fill="#a7d397" font-size="10" font-family="Outfit,sans-serif">&amp; Refining</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="290" y1="90" x2="314" y2="90" stroke="#4a7c2f" stroke-width="2.5" marker-end="url(#arrowhead)" />
+
+          <!-- Node 3: Mixing -->
+          <g class="flow-node" transform="translate(316,60)">
+            <rect width="120" height="60" rx="12" fill="url(#nodeGrad)" filter="url(#nodeShadow)" />
+            <text x="60" y="26" text-anchor="middle" fill="#a7d397" font-size="18">🔄</text>
+            <text x="60" y="43" text-anchor="middle" fill="#fff" font-size="10" font-family="Outfit,sans-serif" font-weight="600">Blending</text>
+            <text x="60" y="55" text-anchor="middle" fill="#a7d397" font-size="10" font-family="Outfit,sans-serif">&amp; Mixing</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="438" y1="90" x2="462" y2="90" stroke="#4a7c2f" stroke-width="2.5" marker-end="url(#arrowhead)" />
+
+          <!-- Node 4: Quality Testing -->
+          <g class="flow-node" transform="translate(464,60)">
+            <rect width="120" height="60" rx="12" fill="url(#nodeGrad)" filter="url(#nodeShadow)" />
+            <text x="60" y="26" text-anchor="middle" fill="#a7d397" font-size="18">🔬</text>
+            <text x="60" y="43" text-anchor="middle" fill="#fff" font-size="10" font-family="Outfit,sans-serif" font-weight="600">Quality</text>
+            <text x="60" y="55" text-anchor="middle" fill="#a7d397" font-size="10" font-family="Outfit,sans-serif">Testing</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="586" y1="90" x2="610" y2="90" stroke="#4a7c2f" stroke-width="2.5" marker-end="url(#arrowhead)" />
+
+          <!-- Node 5: Filling -->
+          <g class="flow-node" transform="translate(612,60)">
+            <rect width="120" height="60" rx="12" fill="url(#nodeGrad)" filter="url(#nodeShadow)" />
+            <text x="60" y="26" text-anchor="middle" fill="#a7d397" font-size="18">🍶</text>
+            <text x="60" y="43" text-anchor="middle" fill="#fff" font-size="10" font-family="Outfit,sans-serif" font-weight="600">Filling</text>
+            <text x="60" y="55" text-anchor="middle" fill="#a7d397" font-size="10" font-family="Outfit,sans-serif">&amp; Sealing</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="734" y1="90" x2="758" y2="90" stroke="#4a7c2f" stroke-width="2.5" marker-end="url(#arrowhead)" />
+
+          <!-- Node 6: Packaging -->
+          <g class="flow-node" transform="translate(760,60)">
+            <rect width="120" height="60" rx="12" fill="url(#nodeGrad)" filter="url(#nodeShadow)" />
+            <text x="60" y="26" text-anchor="middle" fill="#a7d397" font-size="18">📦</text>
+            <text x="60" y="43" text-anchor="middle" fill="#fff" font-size="10" font-family="Outfit,sans-serif" font-weight="600">Eco</text>
+            <text x="60" y="55" text-anchor="middle" fill="#a7d397" font-size="10" font-family="Outfit,sans-serif">Packaging</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="882" y1="90" x2="906" y2="90" stroke="#4a7c2f" stroke-width="2.5" marker-end="url(#arrowhead)" />
+
+          <!-- Node 7: Final Product -->
+          <g class="flow-node" transform="translate(908,50)">
+            <rect width="80" height="80" rx="40" fill="#a7d397" filter="url(#nodeShadow)" />
+            <text x="40" y="32" text-anchor="middle" fill="#1a3009" font-size="20">🌱</text>
+            <text x="40" y="50" text-anchor="middle" fill="#1a3009" font-size="9" font-family="Outfit,sans-serif" font-weight="700">Final</text>
+            <text x="40" y="62" text-anchor="middle" fill="#1a3009" font-size="9" font-family="Outfit,sans-serif" font-weight="700">Product</text>
+          </g>
+
+          <!-- Bottom label bar -->
+          <text x="500" y="165" text-anchor="middle" fill="#7fb069" font-size="11" font-family="Outfit,sans-serif" font-style="italic">
+            From Forest to Family — Every Step, Naturally Perfected
+          </text>
+
+        </svg>
+      </div>
+
+      <!-- Mobile-friendly flow list (shown on small screens) -->
+      <ol class="flow-list">
+        <li>🌿 Raw Materials</li>
+        <li>⚗️ Extraction &amp; Refining</li>
+        <li>🔄 Blending &amp; Mixing</li>
+        <li>🔬 Quality Testing</li>
+        <li>🍶 Filling &amp; Sealing</li>
+        <li>📦 Eco Packaging</li>
+        <li>🌱 Final Product</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================
+       MEDIA GALLERY SECTION
+  ============================= -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Behind the Scenes</p>
+        <h2 class="section-title">Media Gallery</h2>
+        <p class="section-desc">A visual journey through our ingredients, production, and finished product.</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <figure class="gallery-item gallery-item--large reveal delay-1">
+          <img
+            src="product-photo.jpg"
+            alt="NaturGuard product lineup"
+            onerror="this.src='https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80'; this.onerror=null;"
+          />
+          <figcaption>NaturGuard Product Range</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal delay-2">
+          <img
+            src="neem-harvest.jpg"
+            alt="Neem leaf harvest"
+            onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80'; this.onerror=null;"
+          />
+          <figcaption>Organic Neem Harvest</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal delay-3">
+          <img
+            src="coconut-oil.jpg"
+            alt="Cold-pressed coconut oil"
+            onerror="this.src='https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?w=500&q=80'; this.onerror=null;"
+          />
+          <figcaption>Cold-Pressed Coconut Oil</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal delay-1">
+          <img
+            src="lab-testing.jpg"
+            alt="Quality testing lab"
+            onerror="this.src='https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500&q=80'; this.onerror=null;"
+          />
+          <figcaption>Quality Testing Lab</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal delay-2">
+          <img
+            src="packaging.jpg"
+            alt="Eco-friendly packaging"
+            onerror="this.src='https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&q=80'; this.onerror=null;"
+          />
+          <figcaption>Eco-Friendly Packaging</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal delay-3">
+          <img
+            src="family-safe.jpg"
+            alt="Safe for families"
+            onerror="this.src='https://images.unsplash.com/photo-1540479859555-17af45c78602?w=500&q=80'; this.onerror=null;"
+          />
+          <figcaption>Safe for the Whole Family</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       APPLICATIONS SECTION
+  ============================= -->
+  <section class="section applications-section" id="applications">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Where to Use</p>
+        <h2 class="section-title">Versatile Protection Everywhere</h2>
+        <p class="section-desc">NaturGuard adapts to every environment, keeping your family safe wherever life takes you.</p>
+      </div>
+
+      <div class="apps-grid">
+
+        <div class="app-card reveal delay-1">
+          <div class="app-icon">🏠</div>
+          <h3>Home Use</h3>
+          <p>Apply to exposed skin or diffuse in living areas. Creates a natural barrier throughout your home without toxic fumes or residue.</p>
+          <div class="app-tag">Living Room · Kitchen · Hallways</div>
+        </div>
+
+        <div class="app-card reveal delay-2">
+          <div class="app-icon">🛏️</div>
+          <h3>Bedroom Use</h3>
+          <p>Safe for overnight use. The gentle menthol aroma doubles as a calming sleep aid while keeping mosquitoes out of your sleep space.</p>
+          <div class="app-tag">Adults · Children · Newborns (diluted)</div>
+        </div>
+
+        <div class="app-card reveal delay-3">
+          <div class="app-icon">🌳</div>
+          <h3>Outdoor Use</h3>
+          <p>Waterproof-grade formula stays effective during outdoor activities — camping, hiking, gardening, or evening gatherings in the backyard.</p>
+          <div class="app-tag">Gardens · Camping · Sports</div>
+        </div>
+
+        <div class="app-card reveal delay-4">
+          <div class="app-icon">👨‍👩‍👧‍👦</div>
+          <h3>Safe for Families</h3>
+          <p>Dermatologist-tested, hypoallergenic, and free from DEET, parabens, and synthetic fragrances. Approved for children above 6 months.</p>
+          <div class="app-tag">Kids · Elderly · Sensitive Skin</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       HOW TO USE SECTION
+  ============================= -->
+  <section class="section howto-section" id="how-to-use">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Usage Guide</p>
+        <h2 class="section-title">How to Use NaturGuard</h2>
+        <p class="section-desc">Simple, quick, and effective — get protected in under a minute.</p>
+      </div>
+
+      <div class="howto-grid">
+
+        <div class="howto-step reveal delay-1">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h3>Shake Well</h3>
+            <p>Before every use, shake the bottle for 5–10 seconds to ensure all natural ingredients are evenly blended.</p>
+          </div>
+        </div>
+
+        <div class="howto-step reveal delay-2">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h3>Dispense on Palm</h3>
+            <p>Pour 2–3 drops into your palm or onto a cotton pad. A little goes a long way with NaturGuard.</p>
+          </div>
+        </div>
+
+        <div class="howto-step reveal delay-3">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h3>Apply to Exposed Skin</h3>
+            <p>Gently rub onto arms, legs, neck, and other exposed areas. Avoid contact with eyes and mucous membranes.</p>
+          </div>
+        </div>
+
+        <div class="howto-step reveal delay-1">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h3>Reapply as Needed</h3>
+            <p>For extended outdoor activities, reapply every 6–8 hours or after sweating heavily or swimming.</p>
+          </div>
+        </div>
+
+        <div class="howto-step reveal delay-2">
+          <div class="step-num">5</div>
+          <div class="step-body">
+            <h3>Room Diffusion</h3>
+            <p>For indoor protection, add 10–15 drops to a diffuser or warm water bowl and place near windows or entry points.</p>
+          </div>
+        </div>
+
+        <div class="howto-step reveal delay-3">
+          <div class="step-num">6</div>
+          <div class="step-body">
+            <h3>Storage</h3>
+            <p>Store in a cool, dark place below 30°C. Keep tightly sealed. Best used within 12 months of opening.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Safety note -->
+      <div class="safety-note reveal">
+        <span class="safety-icon">⚠️</span>
+        <p><strong>Safety Note:</strong> Perform a patch test before first use. For children under 6 months, consult a paediatrician. Discontinue use if irritation occurs.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">🌿 NaturGuard</span>
+        <p class="footer-tagline">Protecting families through the power of nature. Safe, sustainable, and scientifically formulated.</p>
+      </div>
+      <div class="footer-divider"></div>
+      <p class="footer-copy">© 2026 NaturGuard. All rights reserved.</p>
+    </div>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      ↑
+    </button>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
